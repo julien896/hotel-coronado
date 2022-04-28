@@ -7,14 +7,17 @@ const FoodsCard = () => {
     return ( 
         <div className='foods-container'>
             <div className='image'>
+                <div className='container'>
                 <Image src={fish} alt='' />
+                </div>
             </div>
             <div className='text'>
                 <div className='us'><p>NUESTRA COCINA</p></div>
-                <div className='hotel'>Hotel Coronado</div>
+                <div className='hotel'>Casera y tradicional</div>
                 <div className='description'>
-                    Joya de hospitalidad, ubicada en la zona centrica de Mina Clavero.<br/>
-                    El hotel combina diseño y modernidad en todas sus instalaciones.
+                    La experiencia que ofrecemos a nuestros comensales es integramente elaborada<br/>
+                    en nuestra cocina de forma casera con ingredientes autóctonos, favoreciendo<br/>
+                    a los productores locales y enalteciendo los sabores.
                 </div>
             </div>
         </div>

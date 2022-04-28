@@ -7,9 +7,17 @@
     & .image {
         width: 50%;
 
-        & img {
-            width: 600px !important;
+        & .container {
+            width: fit-content;
             height: 500px !important;
+            border-radius: 2px;
+            box-shadow: 1px 3px 5px 1px rgba(34,34,34,0.75);
+
+            & img {
+                width: 600px !important;
+                height: 500px !important;
+                border-radius: 2px;
+            }
         }
     }
 
@@ -36,6 +44,7 @@
    
             & .description {
                 font-size: 16px;
+                color: #222222;
             }
    
             & .hotel {

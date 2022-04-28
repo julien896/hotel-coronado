@@ -25,7 +25,7 @@ const HomeCard = () => {
             <MainTopBar />
             <div className='welcome'>
               <h2>Hotel Coronado</h2>
-              <span>Mina Clavero</span>
+              <span>Resto Bar & Suites</span>
             </div>
             {whatsappActive ?
             <Link

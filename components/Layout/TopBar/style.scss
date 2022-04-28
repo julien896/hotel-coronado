@@ -8,6 +8,10 @@
     margin-top: -20px;
     z-index: 11;
   }
+  &.inactive {
+    background: rgba(0, 0, 0, 1); 
+    position: inherit !important;
+  }
   & .Sidebar {
     display: none;
   }

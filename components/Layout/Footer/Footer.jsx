@@ -81,9 +81,9 @@ const Footer = () => {
                     </Link>
                     <Link
                       className="font-size-14 kit__utils__link"
-                      href="/home/workshifts"
+                      href="/habitaciones"
                     >
-                    Hospedaje
+                    Nuestras habitaciones
                     </Link>
                     <Link
                       className="font-size-14 kit__utils__link"
@@ -93,7 +93,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       className="font-size-14 kit__utils__link"
-                      href="/home/salary"
+                      href="/contact"
                     >
                     Contacto
                     </Link>
