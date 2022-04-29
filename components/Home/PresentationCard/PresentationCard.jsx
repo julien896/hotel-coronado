@@ -5,7 +5,7 @@ import vitreaux from '../../../public/assets/jpg/general/vitreaux.jpg'
 import canteen from '../../../public/assets/jpg/general/canteen.jpg'
 import canteen2 from '../../../public/assets/jpg/general/canteen2.jpg'
 import coffee from '../../../public/assets/jpg/foods/coffee.jpg'
-import chicken from '../../../public/assets/jpg/foods/chicken.jpg'
+import bar from '../../../public/assets/jpg/general/16.jpg'
 
 const PresentationCard = () => {
     return ( 
@@ -22,12 +22,12 @@ const PresentationCard = () => {
                 </div>
             </div>
             <div className='images'>
-                <div className='image'><Image src={room} alt='' /></div>
-                <div className='image'><Image src={canteen} alt='' /></div>
-                <div className='image'><Image src={chicken} alt='' /></div>
-                <div className='image'><Image src={vitreaux} alt='' /></div>
-                <div className='image'><Image src={coffee} alt='' /></div>
                 <div className='image'><Image src={canteen2} alt='' /></div>
+                <div className='image'><Image src={coffee} alt='' /></div>
+                <div className='image'><Image src={bar} alt='' /></div>
+                <div className='image'><Image src={vitreaux} alt='' /></div>
+                <div className='image'><Image src={canteen} alt='' /></div>
+                <div className='image'><Image src={room} alt='' /></div>
             </div>
         </div>
      );

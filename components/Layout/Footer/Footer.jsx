@@ -38,7 +38,7 @@ const Footer = () => {
                 <div className='container'>
                 <div className='contact'>
                     <MailFilled style={{ color: '#222222' }} />
-                    <h3 className='title'>hotelcoronado@gmail.com</h3>
+                    <h3 className='title'>coronadohotel.recepcion@gmail.com</h3>
                     <span className='data'>Consultas</span>
                 </div>
                 <div className='contact'>
@@ -87,7 +87,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       className="font-size-14 kit__utils__link"
-                      href="/home/absences"
+                      href="/resto"
                     >
                     Resto
                     </Link>

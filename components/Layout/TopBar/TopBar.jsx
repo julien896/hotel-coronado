@@ -51,7 +51,7 @@ const MainTopBar = () => {
             </Link>
             <Link
               className="font-size-14 kit__utils__link"
-              href="/home/absences"
+              href="/resto"
             >
                Resto
             </Link>
