@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import logo from "../../../public/assets/jpg/general/logo2.png"
+import logo from "@/public/assets/jpg/general/logo2.png"
 import Image from "next/image";
 import { useRouter } from "next/router";
 
@@ -32,9 +32,9 @@ const MainTopBar = () => {
       <div className="card-body" style={{borderRadius: "0"}}>
         <div className="topBar">
           <div className="logo">
-            <a href="/">
+            <Link href="/">
               <Image src={logo} alt="Coronado" />
-            </a>
+            </Link>
           </div>
           <div className="nav navHugeScreen">
             <Link

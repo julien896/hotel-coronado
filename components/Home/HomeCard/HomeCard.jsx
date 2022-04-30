@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
-import MainTopBar from '../../Layout/TopBar/TopBar';
+import MainTopBar from '@/components/Layout/TopBar/TopBar';
 import { WhatsAppOutlined } from '@ant-design/icons';
 
 const HomeCard = () => {

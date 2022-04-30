@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import fish from '../../../public/assets/jpg/foods/fish.jpg'
+import fish from '@/public/assets/jpg/foods/fish.jpg'
 
 
 const FoodsCard = () => {

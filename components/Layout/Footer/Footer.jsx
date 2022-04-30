@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
-import logo from "../../../public/assets/jpg/general/logo2.png"
+import logo from "@/public/assets/jpg/general/logo2.png"
 import Image from 'next/image'
 import { FacebookFilled, InstagramFilled, PhoneFilled, MailFilled, HomeFilled } from '@ant-design/icons';
 
@@ -37,11 +37,6 @@ const Footer = () => {
             <div className='contact-data'>
                 <div className='container'>
                 <div className='contact'>
-                    <MailFilled style={{ color: '#222222' }} />
-                    <h3 className='title'>coronadohotel.recepcion@gmail.com</h3>
-                    <span className='data'>Consultas</span>
-                </div>
-                <div className='contact'>
                 <Link href="https://api.whatsapp.com/send?phone=5493544565876&text=&source=&data">
                     <a 
                       style={{ display: 'flex', justifyContent: 'center' }}  
@@ -55,6 +50,11 @@ const Footer = () => {
                     <span className='data'>Consultas y reservas</span>
                 </div>
                 <div className='contact'>
+                    <MailFilled style={{ color: '#222222' }} />
+                    <h3 className='title'>coronadohotel.recepcion@gmail.com</h3>
+                    <span className='data'>Consultas</span>
+                </div>
+                <div className='contact'>
                     <HomeFilled style={{ color: '#222222' }} />
                     <h3 className='title'>Av. San Martín 2300</h3>
                     <span className='data'>Mina Clavero, Cordoba</span>
@@ -63,9 +63,9 @@ const Footer = () => {
             </div>
             <div className='bottom'>
                 <div style={{ width: '50%', display: 'flex', alignItems: 'center' }}>
-                    <a href="/">
+                    <Link href="/">
                     <Image src={logo} alt="Coronado" />
-                    </a>
+                    </Link>
                     <div className='contact' style={{ marginLeft: 20 }}>
                         <h3 className='title-bottom'>Av. San Martín 2300</h3>
                         <span className='data-bottom'>Mina Clavero, Cordoba</span>

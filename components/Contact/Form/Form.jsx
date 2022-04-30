@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Form, Input, Button } from 'antd';
 import Image from 'next/image'
 import axios from 'axios';
-import { notificationSuccess, notificationError } from '../../base/Notifications';
-import hotel from '../../../public/assets/jpg/general/hotel2.png'
+import { notificationSuccess, notificationError } from '@/components/base/Notifications';
+import hotel from '@/public/assets/jpg/general/hotel2.png'
 
 const ContactForm = () => {
     const [form] = Form.useForm()
