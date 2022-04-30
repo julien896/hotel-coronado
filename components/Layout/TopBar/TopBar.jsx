@@ -32,7 +32,7 @@ const MainTopBar = () => {
       <div className="card-body" style={{borderRadius: "0"}}>
         <div className="topBar">
           <div className="logo">
-            <Link href="/">
+            <Link href="/" passHref>
               <Image src={logo} alt="Coronado" />
             </Link>
           </div>

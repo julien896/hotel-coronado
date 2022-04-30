@@ -63,8 +63,8 @@ const Footer = () => {
             </div>
             <div className='bottom'>
                 <div style={{ width: '50%', display: 'flex', alignItems: 'center' }}>
-                    <Link href="/">
-                    <Image src={logo} alt="Coronado" />
+                    <Link href="/" passHref>
+                      <Image src={logo} alt="Coronado" />
                     </Link>
                     <div className='contact' style={{ marginLeft: 20 }}>
                         <h3 className='title-bottom'>Av. San Martín 2300</h3>

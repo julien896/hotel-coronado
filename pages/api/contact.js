@@ -16,8 +16,8 @@ export default function (req, res) {
         to: 'julicogui@gmail.com',
         subject: `Mensaje de ${req.body.name}`,
         text: req.body.message + " | Enviado por: " + req.body.email,
-        html: `<div>${req.body.message}</div><p>Desde el correo:
-        ${req.body.email}</p>
+        html: `<div>${req.body.message}</div>
+        <p>Desde el correo: ${req.body.email}</p>
         <p>Telefono: ${req.body.phone}</p>`
       }
       transporter.sendMail(mailData, (err, info) => {

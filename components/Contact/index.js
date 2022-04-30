@@ -7,7 +7,7 @@ const Contact = () => {
     return ( 
         <div className='contact-container'>
             <ContactUs />
-            {/* <GMap /> */}
+            <GMap />
             <ContactForm />
         </div>
      );

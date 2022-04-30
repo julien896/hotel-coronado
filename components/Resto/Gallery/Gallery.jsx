@@ -28,18 +28,20 @@ const Gallery = () => {
             <Image src={st2} alt='' />
             <Image src={st} alt='' />
         </div>
-        <div className='row-2'>
-            <Image src={st4} alt='' />
-            <Image src={st6} alt='' />
-        </div>
+{/*         <div className='row-2'>
+            <div><h2 className='title'>Nuestra propuesta</h2></div>
+            <p></p>
+        </div> */}
         <div className='row-3'>
             <Image src={st11} alt='' />
             <Image src={st7} alt='' />
             <Image src={st10} alt='' />
         </div>
         <div className='row-4'>
-            <Image src={st8} alt='' />
-            <Image src={coffee} alt='' />
+{/*             <Image src={st8} alt='' />
+            <Image src={coffee} alt='' /> */}
+            <Image src={st4} alt='' />
+            <Image src={st6} alt='' />
         </div>
     </div>
     );
