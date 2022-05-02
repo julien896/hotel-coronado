@@ -81,7 +81,7 @@ const Footer = () => {
                     </Link>
                     <Link
                       className="font-size-14 kit__utils__link"
-                      href="/habitaciones"
+                      href="/rooms"
                     >
                     Nuestras habitaciones
                     </Link>
