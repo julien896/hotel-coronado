@@ -1,0 +1,23 @@
+.services-container {
+    width: 100%;
+    padding: 40px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+
+    & .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;;
+        align-items: flex-start;
+
+        & .title {
+            font-size: 20px;
+        }
+        & .item {
+            color: #666a6e;
+            font-size: 18px;
+        }
+    }
+}

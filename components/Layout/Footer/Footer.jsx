@@ -37,7 +37,7 @@ const Footer = () => {
             <div className='contact-data'>
                 <div className='container'>
                 <div className='contact'>
-                <Link href="https://api.whatsapp.com/send?phone=5493544565876&text=&source=&data">
+                <Link href="https://api.whatsapp.com/send?phone=5493465449481&text=&source=&data">
                     <a 
                       style={{ display: 'flex', justifyContent: 'center' }}  
                       target="_blank" 
@@ -46,7 +46,7 @@ const Footer = () => {
                     <PhoneFilled style={{ color: '#222222' }} />
                     </a>
                 </Link>
-                    <h3 className='title'>+54 9 3544-565876</h3>
+                    <h3 className='title'>+54 9 3465-449481</h3>
                     <span className='data'>Consultas y reservas</span>
                 </div>
                 <div className='contact'>

@@ -30,7 +30,7 @@ const HomeCard = () => {
             {whatsappActive ?
             <Link
               className="font-size-14 kit__utils__link"
-              href="https://api.whatsapp.com/send?phone=5493544565876&text=&source=&data"
+              href="https://api.whatsapp.com/send?phone=5493465449481&text=&source=&data"
             >
             <a target="_blank" rel="noopener noreferrer">
             <WhatsAppOutlined 

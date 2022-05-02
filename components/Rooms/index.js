@@ -8,8 +8,8 @@ const Resto = () => {
     return ( 
         <div>
             <RoomsPresentation />
-{/*             <Rooms />
-            <Services /> */}
+            <Rooms />
+            <Services /> 
         </div>
      );
 }
