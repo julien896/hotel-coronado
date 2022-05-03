@@ -3,6 +3,7 @@ import Link from "next/link";
 import logo from "@/public/assets/jpg/general/logo2.png"
 import Image from "next/image";
 import { useRouter } from "next/router";
+import HamburgerMenu from "@/components/base/HamburgerMenu";
 
 const MainTopBar = () => {
 
@@ -31,6 +32,9 @@ const MainTopBar = () => {
     >
       <div className="card-body" style={{borderRadius: "0"}}>
         <div className="topBar">
+          <div className="hamburger-container">
+            <HamburgerMenu />
+          </div>
           <div className="logo">
             <Link href="/" passHref>
               <Image src={logo} alt="Coronado" />

@@ -15,12 +15,6 @@
   & .Sidebar {
     display: none;
   }
-  & .ant-dropdown-trigger {
-    margin-right: 22px !important;
-    &.avatarBadge {
-      margin-right: 0 !important;
-    }
-  }
   & .card-body {
     padding: 10px 60px !important;
   }
@@ -43,10 +37,6 @@
     }
     & .notificationsBadge {
       margin-right: 15px;
-    }
-    & .ant-dropdown-trigger {
-      margin-right: 4px;
-      margin-left: 7px;
     }
     & .ant-input {
       height: 33px !important;
@@ -130,99 +120,35 @@
   border-bottom: 1px solid #262d42;
 }
 
+.hamburger-container {
+  display: none;
+}
+.hamburger-menu {
+  display: none;
+}
+
 @media (max-width: 950px) {
+  .hamburger-container {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
   .top-container {
     height: 75px;
     .topBar {
       height: 75px;
+      /* justify-content: center; */
     }
-    .card-body {
-      padding: 0 33px !important;
-    }
-    & .Sidebar {
-      .bgDark {
-        position: fixed;
-        z-index: -1;
-        background: #00000000;
-        width: 100%;
-        height: 100vh;
-        transition: all linear 0.4s;
-        top: 0;
-        left: 0;
-        visibility: hidden;
-        &.active {
-          visibility: visible;
-          z-index: 15;
-          display: block;
-          transition: all linear 0.4s;
-          background: #00000050;
-        }
-      }
-      display: block !important;
-      .nav {
-        display: flex !important;
-        background: #fff;
-        position: fixed;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding: 25px;
-        width: 250px;
-        z-index: 20;
-        left: -250px;
-        height: 100vh;
-        top: 0;
-        transition: all 0.4s ease-in-out;
-        .logoContainer {
-          margin-bottom: 20px;
-          margin-top: 15px;
-        }
-        a {
-          width: 100%;
-          height: 46px;
-          border-radius: 4px;
-          margin-top: 10px;
-          font-size: 18px !important;
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          padding-left: 10px;
-          .imgCont {
-            width: 19px;
-            margin-right: 15px;
-          }
-          &.active {
-            background: #132c4a;
-            color: #fff !important;
-            img {
-              filter: invert(0) !important;
-            }
-          }
-        }
-        &.active {
-          left: 0;
-          transition: all 0.4s ease-in-out;
-        }
-      }
-      img {
-        border-radius: 0;
-      }
-      .menu {
-        cursor: pointer;
-        img {
-          height: 19px;
-        }
-      }
-      hr {
-        width: 100%;
-        height: 1px;
-        background: rgba(24, 24, 24, 0.1);
-        margin: 25px 0;
-      }
-    }
-    & .navHugeScreen,
-    & .searchContainer,
-    & .logo {
+    & .navHugeScreen {
+    /* & .logo { */
       display: none !important;
     }
+        & .logo {
+          display: flex;
+          justify-content: flex-start;
+        }
   }
 }

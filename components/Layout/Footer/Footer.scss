@@ -55,7 +55,7 @@
 
 
             & .anticon  {
-                font-size: 45px !important;
+                font-size: 45px;
                 margin-bottom: 15px;
             }
 
@@ -105,7 +105,15 @@
               }
             }
           }
+        & .bottom-left {
+            width: 50%; 
+            display: flex;
+            align-items: center
+        }  
 
+        & .bottom-right {
+            width: 50%; 
+        } 
         & .title-bottom {
             font-size: 18px;
             color: white;
@@ -146,6 +154,39 @@
         width: 100%;
         padding: 15px;
         justify-content: flex-end;
+    }
+
+    & .bottom {
+        & .bottom-right {
+            display: none;
+        }
+        & .bottom-left {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    & .contact-data {
+        & .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        & .contact {
+            margin-bottom: 25px;
+            & .anticon {
+                font-size: 32px !important;
+            }
+            & .title {
+                font-size: 18px !important;
+            }
+
+            & .data {
+                margin-top: 0 !important;
+                font-size: 16px !important;
+            }
+        }
     }
     }
   }

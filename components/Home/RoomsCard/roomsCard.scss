@@ -70,3 +70,17 @@
         }
     }
 }
+
+@media (max-width: 950px) {
+    .rooms-container {
+        flex-direction: column;
+
+        & .text {
+            width: 100%;
+        }
+
+        & .carousel {
+            width: 100%;
+        }
+    }
+  }

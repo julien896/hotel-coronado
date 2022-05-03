@@ -53,3 +53,37 @@
             }
         }
 }
+
+@media (max-width: 950px) {
+    .foods-container {
+        flex-direction: column-reverse;
+
+        & .text {
+            width: 100%;
+
+            & div {
+                justify-content: center;
+            }
+            & .us {
+                font-size: 23px;
+    
+             }
+    
+             & .description {
+                text-align: center;
+                font-size: 15px;
+             }
+    
+             & .hotel {
+                 font-size: 32px;
+             }
+        }
+
+        & .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+  }

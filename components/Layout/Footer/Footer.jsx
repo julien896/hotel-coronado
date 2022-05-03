@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bottom'>
-                <div style={{ width: '50%', display: 'flex', alignItems: 'center' }}>
+                <div className='bottom-left'>
                     <Link href="/" passHref>
                       <Image src={logo} alt="Coronado" />
                     </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
                         <span className='data-bottom'>Mina Clavero, Cordoba</span>
                     </div>
                 </div>
-                <div style={{ width: '50%' }}>
+                <div className='bottom-right'>
                 <div className="nav">
                     <Link
                       className="font-size-14 kit__utils__link"

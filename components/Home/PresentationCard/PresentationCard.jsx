@@ -16,7 +16,7 @@ const PresentationCard = () => {
                 <div className='description'>
                     Un clásico en el corazón de Mina Clavero desde hace más de 50 años.<br/>
                     Su calidez y particular diseño hacen de esta esquina un emblema
-                    en el valle de Traslasierra.<br/> Estamos enfocados en brindar buenas experiencias
+                    del valle de Traslasierra.<br/> Estamos enfocados en brindar buenas experiencias
                     en nuestro servicio de hospitalidad.<br/>
                     Queremos que nuestros huéspedes y comensales siempre deseen volver.
                 </div>

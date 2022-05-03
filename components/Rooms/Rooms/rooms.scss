@@ -1,40 +1,4 @@
-/* .rooms-page-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 60px;
-
-    & .room {
-       width: 100%;
-       display: flex;
-       margin: 60px 0 20px 0;
-
-       & .image {
-           display: flex;
-           width: 50%;
-           border-radius: 3px;
-           box-shadow: 1px 3px 5px 1px rgba(34,34,34,0.75);
-
-           & img {
-                border-radius: 3px;
-           }
-       }
-       
-       & .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-
-        & h3 {
-            font-size: 42px;
-            font-weight: 500;
-            color: #222222;
-        }
-    }
-    }
-}   */    
-.rooms-page-container {
+ .rooms-page-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
@@ -69,3 +33,14 @@
     }
     }
 }       
+
+@media (max-width: 950px) {
+    .rooms-page-container {
+        display: flex;
+        flex-direction: column;
+
+        & .room {
+            margin-bottom: 30px;
+        }
+    }
+  }
