@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Menu, Dropdown  } from 'antd';
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -6,13 +6,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const HamburgerMenu = () => {
 
-    const [truthy, setTruthy] = useState(false)
-    useEffect(() => {
-        window.innerWidth > 950 ? setTruthy(true) : setTruthy(false)
-    }, []);
-
     const menu = (
-        <Menu hidden={truthy}>
+        <Menu>
           <Menu.Item>
             <span>
             <Link
